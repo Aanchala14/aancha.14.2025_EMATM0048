@@ -1,8 +1,14 @@
-"""Main script to run the Flower shop simulation"""
+"""
+Username: aancha.14.2025; Name: Aanchala Bhongade; Student no.: 2830709
+Part 1: Text Based Flower Shop Simulation.
+Brief: This script is the main script for running all the classes and functions, it takes all the input needed to run the simulation. It performs all the calculation
+       needed in flower shop.
+"""
+#main script to run the Flower shop simulation
 from Flower_Shop import Flower_Shop
 from Vendor import Vendor
 
-#Available vendors
+#Availaible vendors
 vendor = [
     Vendor("Evergreen Essentials", {'roses': 2.80, 'daisies': 1.50, 'greenery': 0.95}),
     Vendor("FloraGrow Distributors", {'roses': 1.60, 'daisies': 1.20, 'greenery': 1.80})
@@ -27,54 +33,78 @@ def get_input(prompt, min_value=0, max_value=None):
 def manage_florist(shop):
     """Adding and removing the florists as needed, with specialisation if has any."""
     while True:
+        print(f"Current florists: {len(shop.florists)}")
+
         if len(shop.florists) == 4:
             print("Maximum florists capacity reached.")
-        print("Manage the florists?(add/rmv/na): ")
+        print("\nManage the florists?(add/rmv/na): ")
         choice = input().strip().lower()
         print()
 
         if choice == 'na':
             break
-        if choice == 'add':
+        elif choice == 'add':
+            #check for number of florists
             if len(shop.florists) >= 4:
-                print("Cannnot add more florists, recahed maximum.")
-                continue
-            while True:
-                name = input("Enter name:").strip()
-                if not name:
-                    print("This cannot be empty.\n")
-                    continue
-                print("Does this florist has a speciality?(yes/no): ", end="")
-                spec_input = input().strip().lower()
-                while spec_input not in {'yes', 'no'}:
-                    print("Invalid input. Please enter yes/no: ", end="")
-                    spec_input = input().strip().lower()
-                speciality = None
-                if spec_input == 'yes':
-                    print("Available bouquets are: Fern-tastic, Be-Leaf in Yourself, You Rose to the Ocassion")
-                    speciality = input("Enter the bouquet type:").strip()
-                    if speciality not in shop.bouquets:
-                        print("Invalid input.\n")
-                        continue
-                try:
-                    shop.add_florist(name, speciality)
-                    break
-                except ValueError as e:
-                    if str(e) == "Duplicate name":
-                        print("Name already exists.\n")
-        elif choice == 'rmv':
-            if len(shop.florists) <= 1:
-                print("Must have atleast 1 florist.\n")
+                print("Cannnot add more florists, reached maximum.")
                 continue
             try:
-                name = input("enter name of florists to remove: ").strip()
+                available_spots = 4 - len(shop.florists)
+                count_input = input(f"How many florists you want to hire? (Max {available_spots}): ").strip()
+
+                if not count_input.isdigit():
+                    print("Please enter valid number.\n")
+                    continue
+
+                count = int(count_input)
+
+                if count < 1:
+                    print("Atleast 1 florists is must.")
+                    continue
+                if count > available_spots:
+                    print(f"You can add {available_spots} more florists only.")
+                    continue
+
+                #looping for adding number of florists as requested by user
+                for i in range(count):
+                    print(f"Hiring  florists {i+1} of {count}......")
+                    while True:
+                        name = input("Enter a name: ").strip()
+                        if not name:
+                            print("This cannot be empty.\n")
+                            continue
+                        print("Does this florist has a speciality?(yes/no): ", end="")
+                        speciality_input = input().strip().lower()
+                        while speciality_input not in {'yes', 'no'}:
+                            print("Invalid input. Please enter yes/no: ", end="")
+                            speciality_input = input().strip().lower()
+
+                        speciality = None
+                        if speciality_input == 'yes':
+                            print("Available bouquets are: Fern-tastic, Be-Leaf in Yourself, You Rose to the Ocassion")
+                            speciality = input("Enter the bouquet type:").strip()
+                            if speciality not in shop.bouquets:
+                                print("Invalid input.\n")
+                                continue
+                        try:
+                            shop.add_florist(name, speciality)
+                            break
+                        except ValueError as e:
+                            print(f"Error: {e}")
+
+            except ValueError as e:
+                print(f"Invalid input: {e}")
+        elif choice == 'rmv':
+            if len(shop.florists) <= 1:
+                print("Atleast 1 florists is must.")
+                continue
+            try:
+                name = input("Enter a name to remove: ").strip()
                 shop.remove_florist(name)
             except ValueError as e:
-                if str(e) == "No one found":
-                    print("Florist not found.\n")
+                print(f"Error: {e}")
         else:
-            print("Please type 'add', 'rmv', or 'na'.\n")
-
+            print("Please type 'add', 'rmv' or 'na'.\n")
 def sales_plan(shop):
     """Validating the sales plan."""
     bouquet_types = list(shop.bouquets.keys())
@@ -195,3 +225,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
