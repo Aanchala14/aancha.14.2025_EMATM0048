@@ -1,3 +1,10 @@
+"""
+Username: aancha.14.2025; Name: Aanchala Bhongade; Student no.: 2830709
+Part 1: Florist class, Text Based Flower Shop Simulation.
+Brief: In this python script, I have defined 2 class, one for Florists without specialisation and other for florists with specialisation. This
+       script initialise florists name and their specialisation if any. The usual time taken by florists is taken as 1.0 and florists with specialisation
+       is taken as 0.5(half of usual time). I have used Polymorphism and Inheritance for overriding. This is imported in Flower_Shop.
+"""
 class Florist:
     """
     Class defined for florists.
@@ -22,10 +29,10 @@ class Florist:
 class Specialisedflorist(Florist):
     """
     This is the subclass of Florist for specialised florist.
-    Using inheritance, we inherit here using Florists overrdding from bouquet type.
+    Using inheritance, we inherit here using Florists overriding from bouquet type.
     """
     def __init__(self, name, speciality):
-        super().__init__(name) #Intialise the parent attributes
+        super().__init__(name) #Intialising the parent attributes
         self.speciality = speciality
 
     def get_speed(self, bouquet_type):
