@@ -1,3 +1,10 @@
+"""
+Username: aancha.14.2025; Name: Aanchala Bhongade; Student no.: 2830709
+Part 1: Flower_Shop class, Text Based Flower Shop Simulation.
+Brief: Here class for flower shop is defined functions for managing the attributes like cash, supplies, and no. of florists. It has functions for defining the addition,
+       removal of employees, sales plan, total sales, rent payment, florists salaries, replenishment cost, depreciation cost, sales status and restocking of greenhouse.
+       This is imported in the main python script.
+"""
 import math
 from Florist import Florist, Specialisedflorist
 
@@ -46,15 +53,15 @@ class Flower_Shop:
             raise ValueError("Cannot be more than 4 florist")
         if any(f.name == name for f in self.florists):
             raise ValueError("Duplicate Name")
-        self.florists.append(Florist(name))
+
         if speciality:
             new_florist = Specialisedflorist(name, speciality)
-            print(f"Added florist: {new_florist} with {speciality}.")
+            print(f"Added florist: {new_florist}")
         else:
             new_florist = Florist(name)
+            print(f"Added florist: {new_florist}")
 
         self.florists.append(new_florist)
-        print(f"Added florist: {new_florist}")
 
     def remove_florist(self, name):
         """for removing florist by name"""
@@ -63,7 +70,7 @@ class Flower_Shop:
 
         for i, f in enumerate(self.florists):
             if f.name == name:
-                removed_name = self.florists.pop(i)
+                removed_name = self.florists.remove(f)
                 print(f"Removed florist: {removed_name}")
                 return
         raise ValueError("Florist not found")
@@ -193,11 +200,6 @@ class Flower_Shop:
         if self.cash < 0: #checking for bankruptcy for replenishing supplies
             raise ValueError("Bankrupt: Not enough to pay vendor for replenishing supplies.")
         return total_cost
-
- 
-
-
-
 
 
 
