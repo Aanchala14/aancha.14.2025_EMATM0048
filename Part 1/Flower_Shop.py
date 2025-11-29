@@ -45,9 +45,11 @@ class Flower_Shop:
         if len(self.florists) >= 4:
             raise ValueError("Cannot be more than 4 florist")
         if any(f.name == name for f in self.florists):
-            raise ValueError("Florist name needs to be unique.")
+            raise ValueError("Duplicate Name")
+        self.florists.append(Florist(name))
         if speciality:
             new_florist = Specialisedflorist(name, speciality)
+            print(f"Added florist: {new_florist} with {speciality}.")
         else:
             new_florist = Florist(name)
 
@@ -61,11 +63,11 @@ class Flower_Shop:
 
         for i, f in enumerate(self.florists):
             if f.name == name:
-                removed_name = str(f)
-                del self.florists[i]
+                removed_name = self.florists.pop(i)
                 print(f"Removed florist: {removed_name}")
                 return
         raise ValueError("Florist not found")
+
 
     def sales_plan(self, user_demand):
         """
@@ -150,7 +152,7 @@ class Flower_Shop:
 
     def restock_payment(self):
         """Cost needed to replenish and maintaining the greenhouse"""
-        cost = sum(qty * self.restock_cost(supply) for supply, qty in self.supplies.items())
+        cost = sum(qty * self.restock_cost[supply] for supply, qty in self.supplies.items())
         self.cash -= cost
         if self.cash < 0:
             raise ValueError("Bankrupt: Not enough cash to restock.")
@@ -192,6 +194,7 @@ class Flower_Shop:
             raise ValueError("Bankrupt: Not enough to pay vendor for replenishing supplies.")
         return total_cost
 
+ 
 
 
 
