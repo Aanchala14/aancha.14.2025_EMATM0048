@@ -2,7 +2,7 @@
 from Flower_Shop import Flower_Shop
 from Vendor import Vendor
 
-#Availaible vendors
+#Available vendors
 vendor = [
     Vendor("Evergreen Essentials", {'roses': 2.80, 'daisies': 1.50, 'greenery': 0.95}),
     Vendor("FloraGrow Distributors", {'roses': 1.60, 'daisies': 1.20, 'greenery': 1.80})
@@ -27,53 +27,53 @@ def get_input(prompt, min_value=0, max_value=None):
 def manage_florist(shop):
     """Adding and removing the florists as needed, with specialisation if has any."""
     while True:
-        action = input("\nManage the florists?(add/rmv/na): ").strip().lower()
-        if action == 'na':
-            break
-        elif action == 'add':
-            max_add = 4 - len(shop.florists) #checking for max allowed florist before adding
-            if max_add <= 0:
-                print("Florists max reached.")
-                continue
-            num_add = get_input(f"How many you want to add (1- {max_add})?", 1, max_add)
-            for limit in range(num_add):
-                while True:
-                    name = input("Name to add: ").strip()
-                    if not name:
-                        print("Name is required")
-                        continue
-                    try:
-                        any_spec = input("Any speciality?(yes/no): ").strip().lower()
-                        speciality = None
-                        if any_spec == 'yes':
-                            print("Bouquet types: Fern-tastic, Be-Leaf in Yourself, You Rose to the Occasion")
-                            speciality = input("Specify bouquet type: ").strip()
-                            #getting valid input for bouquet type
-                            if speciality not in shop.bouquets:
-                                raise ValueError("Invalid bouquet type.")
+        if len(shop.florists) == 4:
+            print("Maximum florists capacity reached.")
+        print("Manage the florists?(add/rmv/na): ")
+        choice = input().strip().lower()
+        print()
 
-                            #shop class handling which object to create
-                            shop.add_florist(name, speciality)
-                            break
-                    except ValueError as e:
-                            print(e)
-        elif action == 'rmv':
-            if len(shop.florists) <= 1:
-                print("Must have atlest 1 florist.")
+        if choice == 'na':
+            break
+        if choice == 'add':
+            if len(shop.florists) >= 4:
+                print("Cannnot add more florists, recahed maximum.")
                 continue
-            print("Current florists: ")
-            for i, f in enumerate(shop.florists, 1):
-                print(f"{i}. {f}") #using __str__ of the class
-            name = input("Name to remove: ").strip()
-            if not name:
-                print("Name is required.")
+            while True:
+                name = input("Enter name:").strip()
+                if not name:
+                    print("This cannot be empty.\n")
+                    continue
+                print("Does this florist has a speciality?(yes/no): ", end="")
+                spec_input = input().strip().lower()
+                while spec_input not in {'yes', 'no'}:
+                    print("Invalid input. Please enter yes/no: ", end="")
+                    spec_input = input().strip().lower()
+                speciality = None
+                if spec_input == 'yes':
+                    print("Available bouquets are: Fern-tastic, Be-Leaf in Yourself, You Rose to the Ocassion")
+                    speciality = input("Enter the bouquet type:").strip()
+                    if speciality not in shop.bouquets:
+                        print("Invalid input.\n")
+                        continue
+                try:
+                    shop.add_florist(name, speciality)
+                    break
+                except ValueError as e:
+                    if str(e) == "Duplicate name":
+                        print("Name already exists.\n")
+        elif choice == 'rmv':
+            if len(shop.florists) <= 1:
+                print("Must have atleast 1 florist.\n")
                 continue
             try:
-                shop.remove_florists(name)
+                name = input("enter name of florists to remove: ").strip()
+                shop.remove_florist(name)
             except ValueError as e:
-                print(e)
+                if str(e) == "No one found":
+                    print("Florist not found.\n")
         else:
-            print("Invalid action.")
+            print("Please type 'add', 'rmv', or 'na'.\n")
 
 def sales_plan(shop):
     """Validating the sales plan."""
@@ -92,7 +92,7 @@ def sales_plan(shop):
         except ValueError as e:
             print(f"Plan rejected: {e}")
 
-def choose_vendors():
+def choose_vendors(capatalise=None):
     """Choosing the vendor for each supply."""
     chosen = {}
     for supply in ['roses', 'daisies', 'greenery']:
@@ -100,8 +100,8 @@ def choose_vendors():
             choice = input(
                 f"Where do you want to purchase {supply} from Evergreen Essentials(0) or FloraGrow Distributors(1)?\nPress (i) for info: ").strip().lower()
             if choice == 'i':
-                print(f"Evergreen: £{vendor[0].price[supply]:.2f}/bunch")
-                print(f"FloraGrow: £{vendor[1].price[supply]:.2f}/bunch")
+                print(f"Evergreen: £{vendor[0].prices[supply]:.2f}/bunch")
+                print(f"FloraGrow: £{vendor[1].prices[supply]:.2f}/bunch")
                 continue
             try:
                 choice = int(choice)
@@ -131,12 +131,15 @@ def main():
             months = int(months_input)
             if months < 1:
                 print("Invalid value, must be atleast 1.")
-        except months_input:
+        except ValueError:
+            print("Invalid input. Defaulting to 6 months.")
             months = 6
 
 
     for month in range (1, months + 1):
         print(f"\nMonth: {month}")
+
+        print("\nNow you have to manage employees and decide how many bouquets you want to sell of each type.")
 
         manage_florist(shop)
         while len(shop.florists) < 1:
@@ -155,10 +158,9 @@ def main():
         print("Calculations at end of month:")
         print(f"Balance cash, Month start: £{shop.cash:.2f}")
 
-        """
-        Calculation of income.
-        By using map and lambda, mapped the plan items to price*qty, then adding.
-        """
+
+        #Calculation of income, by using map and lambda, mapped the plan items to price*qty, then adding.
+
         income = sum(map(lambda bouq: plan[bouq] * shop.bouquets[bouq]['price'], plan))
 
         print(f"Income: £{income:.2f}")
@@ -193,10 +195,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
