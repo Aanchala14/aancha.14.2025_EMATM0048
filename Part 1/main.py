@@ -48,22 +48,7 @@ def manage_florist(shop):
             if len(shop.florists) >= 4:
                 print("Cannnot add more florists, reached maximum.")
                 continue
-            try:
-                available_spots = 4 - len(shop.florists)
-                count_input = input(f"How many florists you want to hire? (Max {available_spots}): ").strip()
 
-                if not count_input.isdigit():
-                    print("Please enter valid number.\n")
-                    continue
-
-                count = int(count_input)
-
-                if count < 1:
-                    print("Atleast 1 florists is must.")
-                    continue
-                if count > available_spots:
-                    print(f"You can add {available_spots} more florists only.")
-                    continue
 
                 #looping for adding number of florists as requested by user
                 for i in range(count):
@@ -166,15 +151,6 @@ def main():
             months = 6
 
 
-    for month in range (1, months + 1):
-        print(f"\nMonth: {month}")
-
-        print("\nNow you have to manage employees and decide how many bouquets you want to sell of each type.")
-
-        manage_florist(shop)
-        while len(shop.florists) < 1:
-            print("Error: Atleast 1 florist is must.")
-            manage_florist(shop)
 
 
         plan = sales_plan(shop)
