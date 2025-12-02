@@ -9,7 +9,7 @@ import math
 from Florist import Florist, Specialisedflorist
 
 class Flower_Shop:
-    """Defining the class for flower shop which manages cash, supplies and """
+    """Defining the class for flower shop which manages cash, supplies and number of florists"""
     def __init__(self):
         """Initialising the attributes, the total cash and full greenhouse capacity."""
         self.cash = 7500.0 #initial balance
