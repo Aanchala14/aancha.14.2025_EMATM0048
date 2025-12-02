@@ -1,7 +1,8 @@
 """
 Username: aancha.14.2025; Name: Aanchala Bhongade; Student no.: 2830709
 Part 1: Text Based Flower Shop Simulation.
-Brief: This script is the main script for running all the classes and functions, it takes all the input needed to run the simulation. It performs all the calculation needed for flower shop.
+Brief: This script is the main script for running all the classes and functions, it takes all the input needed to run the simulation. It performs all the calculation
+       needed in flower shop.
 """
 #main script to run the Flower shop simulation
 from Flower_Shop import Flower_Shop
@@ -167,6 +168,8 @@ def main():
 
     for month in range (1, months + 1):
         print(f"\nMonth: {month}")
+        
+        month_start_cash = shop.cash
 
         print("\nNow you have to manage employees and decide how many bouquets you want to sell of each type.")
 
@@ -185,7 +188,7 @@ def main():
         print("Month ended.")
         print("_____________________________________________________")
         print("Calculations at end of month:")
-        print(f"Balance cash, Month start: £{shop.cash:.2f}")
+        print(f"Balance cash, Month start: £{month_start_cash:.2f}")
 
 
         #Calculation of income, by using map and lambda, mapped the plan items to price*qty, then adding.
@@ -193,7 +196,7 @@ def main():
         income = sum(map(lambda bouq: plan[bouq] * shop.bouquets[bouq]['price'], plan))
 
         print(f"Income: £{income:.2f}")
-        print("Money spent:")
+        print("Money spent :- ")
 
         try:
             flo_cost = shop.florists_payment()
