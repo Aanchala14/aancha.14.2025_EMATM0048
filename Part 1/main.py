@@ -1,8 +1,7 @@
 """
 Username: aancha.14.2025; Name: Aanchala Bhongade; Student no.: 2830709
 Part 1: Text Based Flower Shop Simulation.
-Brief: This script is the main script for running all the classes and functions, it takes all the input needed to run the simulation. It performs all the calculation
-       needed in flower shop.
+Brief: This script is the main script for running all the classes and functions, it takes all the input needed to run the simulation. It performs all the calculation needed for flower shop.
 """
 #main script to run the Flower shop simulation
 from Flower_Shop import Flower_Shop
