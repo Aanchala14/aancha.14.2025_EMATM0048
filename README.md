@@ -7,6 +7,7 @@
 ## Part 1: Flower Shop Simulation
 
 ### Description
+
 A text-based simulation, based on object oriented programming techniques. The user here is the owner who manages florists, inventory (roses, daisies, greenery) and monthly sales of bouquets to avoid going bankrupt.
 
 ### Overview
