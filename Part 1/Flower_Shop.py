@@ -1,9 +1,13 @@
 """
-Username: aancha.14.2025; Name: Aanchala Bhongade; Student no.: 2830709
-Part 1: Flower_Shop class, Text Based Flower Shop Simulation.
-Brief: Here class for flower shop is defined functions for managing the attributes like cash, supplies, and no. of florists. It has functions for defining the addition,
-       removal of employees, sales plan, total sales, rent payment, florists salaries, replenishment cost, depreciation cost, sales status and restocking of greenhouse.
-       This is imported in the main python script.
+UUsername: aancha.14.2025
+Name: Aanchala Bhongade
+Student no.: 2830709
+Part 1: Flower_Shop Class - Text Based Flower Shop Simulation.
+Brief: It is the main controller for the simulation. This class is
+       responsible for managing the attributes like cash, supplies,
+       and no. of florists. It has main logic for calculating sales
+       feasibility, managing payments, and looking for bankruptcy
+       conditions.
 """
 import math
 from Florist import Florist, Specialisedflorist
