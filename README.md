@@ -14,6 +14,5 @@ The steps invloved in this are as follows:
 
 
 Part 2:
-1. I am thinking of using blockchain dataset and use it for analysis. 
-hi
+
 
