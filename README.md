@@ -10,18 +10,18 @@
 A text-based simulation, based on object oriented programming techniques. The user here is the owner who manages florists, inventory (roses, daisies, greenery) and monthly sales of bouquets to avoid going bankrupt.
 
 ### Overview
-1. **main.py:** This is the entry point for the simulation. It also handles input and output validation and simulation loop.
+1. **main.py:** This is the entry point for the simulation. It also handles input and output validation and simulation loop. Iterating through the requested number of months and doing end of month calculations.
 2. **Flower_Shop.py:** This the main controller of the simulation. This is responsible for cash flow, inventory management and employee management.
 3. **Florist.py:** It defines *florists* and *specialisedflorist* (subclass of florist class). It used inheritance and polymorphism for calculation of time needed to make bouquets.
-4. **Vendor.py:** Class for Vendor, which defines details about them and pricing.
+4. **Vendor.py:** Class for Vendor, which defines details about them and pricing. This allows main.py to choose from vendor choices which are *Evergreen Essentials* and *FloraGrow Distributors*.
 
 ### Designing
 1. **Extension**: I implemented a *specialisedflorist* subclass.
-**Polymorphism**: Used polymorphism to override the get.speed() method, as usual time taken by a florist is 1.0 and florist with specialisation takes 0.5 for their specific bouquet type.
-**Logic Used:** The sales_plan here prioritises the specialised florists before assigning the work.
-2. **Data Structures:** Dictionaries are used for inventory and bouquet types.
-3.**Error Handling:** Custom check points ensure that inputs are correct not invalid.
-4. **Dependencies:** Standard python libraries: math (used for ceil function in calculation of depreciation cost). No external packages are required.
+2. **Polymorphism**: Used polymorphism to override the get.speed() method, as usual time taken by a florist is 1.0 and florist with specialisation takes 0.5 for their specific bouquet type.
+3. **Logic Used:** The sales_plan here prioritises the specialised florists before assigning the work.
+4. **Data Structures:** Dictionaries are used for inventory and bouquet types.
+5. **Error Handling:** Custom check points ensure that inputs are correct not invalid.
+6. **Dependencies:** Standard python libraries: math (used for ceil function in calculation of depreciation cost). No external packages are required.
 
 ### How to run the code
 1. Open Terminal. Ensure you have python 3 installed in terminal.
