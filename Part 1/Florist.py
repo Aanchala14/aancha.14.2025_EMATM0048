@@ -1,9 +1,13 @@
 """
-Username: aancha.14.2025; Name: Aanchala Bhongade; Student no.: 2830709
-Part 1: Florist class, Text Based Flower Shop Simulation.
-Brief: In this python script, I have defined 2 class, one for Florists without specialisation and other for florists with specialisation. This
-       script initialise florists name and their specialisation if any. The usual time taken by florists is taken as 1.0 and florists with specialisation
-       is taken as 0.5(half of usual time). I have used Polymorphism and Inheritance for overriding. This is imported in Flower_Shop.
+Username: aancha.14.2025
+Name: Aanchala Bhongade
+Student no.: 2830709
+Part 1: Florist Class, Text Based Flower Shop Simulation.
+Brief: In this python script, I have defined, Florists class and
+       specialisedflorists subclass. This script initialise florists
+       name and their specialisation if any. It uses Polymorphism
+       and Inheritance to handle different time required to make
+       particular bouquet based on their specialisation.
 """
 class Florist:
     """
