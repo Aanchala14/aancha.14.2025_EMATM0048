@@ -1,5 +1,5 @@
 """
-UUsername: aancha.14.2025
+Username: aancha.14.2025
 Name: Aanchala Bhongade
 Student no.: 2830709
 Part 1: Flower_Shop Class - Text Based Flower Shop Simulation.
@@ -13,7 +13,7 @@ import math
 from Florist import Florist, Specialisedflorist
 
 class Flower_Shop:
-    """Defining the class for flower shop which manages cash, supplies and number of florists"""
+    """Defining the class for flower shop which manages cash, supplies and """
     def __init__(self):
         """Initialising the attributes, the total cash and full greenhouse capacity."""
         self.cash = 7500.0 #initial balance
@@ -204,13 +204,3 @@ class Flower_Shop:
         if self.cash < 0: #checking for bankruptcy for replenishing supplies
             raise ValueError("Bankrupt: Not enough to pay vendor for replenishing supplies.")
         return total_cost
-
-
-
-
-
-
-
-
-
-
