@@ -7,7 +7,6 @@
 ## Part 1: Flower Shop Simulation
 
 ### Description
-
 A text-based simulation, based on object oriented programming techniques. The user here is the owner who manages florists, inventory (roses, daisies, greenery) and monthly sales of bouquets to avoid going bankrupt.
 
 ### Overview
@@ -35,7 +34,8 @@ A text-based simulation, based on object oriented programming techniques. The us
 
 ## Analysis of Blockchain Security: Market Volatility vs. Crime Severity
 
-### Description: An analysis of blockchain data to learn about patterns in financial crimes. I investigate the relationship between cryptocurrency market conditions and security breaches. Specifically, does the 'hype' of Bull Market lead to more frequent or more severe financial crimes compared to a Bear Market? It includes exploratory data analysis (EDA).
+### Description: 
+An analysis of blockchain data to learn about patterns in financial crimes. I investigate the relationship between cryptocurrency market conditions and security breaches. Specifically, does the 'hype' of Bull Market lead to more frequent or more severe financial crimes compared to a Bear Market? It includes exploratory data analysis (EDA).
 
 ### Files:
 1. **Notebook.ipynb:** The Jupyter Notebook contains the full analysis and pipeline.
