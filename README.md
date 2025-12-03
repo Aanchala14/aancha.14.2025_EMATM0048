@@ -16,10 +16,10 @@ A text-based simulation, based on object oriented programming techniques. The us
 4. **Vendor.py:** Class for Vendor, which defines details about them and pricing. This allows main.py to choose from vendor choices which are *Evergreen Essentials* and *FloraGrow Distributors*.
 
 ### Designing
-1. **Extension**: I implemented a *specialisedflorist* subclass.
+1. **Extension**: I extended florist class and implemented a *specialisedflorist* subclass.
 2. **Polymorphism**: Used polymorphism to override the get.speed() method, as usual time taken by a florist is 1.0 and florist with specialisation takes 0.5 for their specific bouquet type.
-3. **Logic Used:** The sales_plan here prioritises the specialised florists before assigning the work.
-4. **Data Structures:** Dictionaries are used for inventory and bouquet types.
+3. **Logic Used:** The sales_plan here prioritises the specialised florists before assigning the work to standard florist.
+4. **Data Structures:** Dictionaries are used for inventory and bouquet types. This structure is easier to manage and change.
 5. **Error Handling:** Custom check points ensure that inputs are correct not invalid.
 6. **Dependencies:** Standard python libraries: math (used for ceil function in calculation of depreciation cost). No external packages are required.
 
