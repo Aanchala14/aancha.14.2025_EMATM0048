@@ -1,0 +1,253 @@
+date,target,amount_usd,eth_price,blockchain,category
+2024-03-22,Super Sushi Samurai,4800000.0,3336.35,['Blast'],Protocol Logic
+2024-03-08,Unizen,2100000.0,3883.36,['Ethereum'],Protocol Logic
+2024-01-07,MangoFarmSol,2000000.0,2221.42,['Solana'],Rugpull
+2025-05-15,Zunami Protocol,500000.0,2548.69,['Ethereum'],Protocol Logic
+2025-11-11,Impermax V3,380000.0,3417.76,['Base'],Protocol Logic
+2024-10-31,M2 Exchange,13700000.0,2518.61,"['Ethereum', 'Solana', 'Bitcoin']",Protocol Logic
+2025-02-11,four.meme,183000.0,2602.59,['BSC'],Protocol Logic
+2023-07-30,Kannagi,1100000.0,1861.79,"['zkSync Era', 'Ethereum']",Rugpull
+2024-09-20,BingX,43300000.0,2561.4,['Ethereum'],Infrastructure
+2025-08-26,BetterBank,5000000.0,4600.63,['PulseChain'],Protocol Logic
+2024-04-15,Grand Base,1700000.0,3101.99,['Base'],Infrastructure
+2024-02-18,FixedFloat,26100000.0,2881.2,"['Ethereum', 'Bitcoin']",Infrastructure
+2023-03-13,Euler V1,197000000.0,1673.45,['Ethereum'],Protocol Logic
+2025-11-07,DIMO,40000.0,3436.05,['Ethereum'],Protocol Logic
+2023-12-30,Locus Finance,321000.0,2291.68,"['Ethereum', 'Arbitrum']",Infrastructure
+2024-01-30,Abracadabra Spell,6500000.0,2343.01,['Ethereum'],Protocol Logic
+2023-05-01,Level Perps,1000000.0,1830.73,['BSC'],Protocol Logic
+2023-11-09,CoinSpot,2400000.0,2121.32,['Ethereum'],Infrastructure
+2025-07-08,"Peapods Finance
+
+",175000.0,2615.25,['Ethereum'],Ecosystem
+2024-05-20,Gala,22000000.0,3661.78,['Ethereum'],Protocol Logic
+2024-03-25,Curio,16000000.0,3590.42,['Ethereum'],Protocol Logic
+2025-09-26,HyperVault,3600000.0,4032.24,['Hyperliquid L1'],Rugpull
+2024-05-16,pump.fun,2000000.0,2944.7,['Solana'],Infrastructure
+2024-11-16,Polter Finance,12000000.0,3132.87,['Fantom'],Protocol Logic
+2025-02-01,Sirio Finance,2000000.0,3117.54,['Hedera'],Protocol Logic
+2023-07-21,Conic Finance,3200000.0,1891.73,['Ethereum'],Ecosystem
+2024-10-04,Lava,130000.0,2414.41,['Arbitrum'],Protocol Logic
+2025-06-18,Nobitex,82000000.0,2525.0,"['Tron', 'Ethereum', 'BSC', 'Avalanche', 'Arbitrum', 'Polygon', 'Bitcoin']",Infrastructure
+2024-04-19,Hedgey,44700000.0,3056.46,"['Arbitrum', 'Ethereum']",Ecosystem
+2025-11-30,Yearn Ether,9000000.0,2991.26,['Ethereum'],Protocol Logic
+2023-03-10,Hedera,515000.0,1426.44,['Hedera'],Protocol Logic
+2023-11-10,Poloniex,126000000.0,2077.72,"['Tron', 'Ethereum', 'Bitcoin']",Infrastructure
+2024-10-14,LeadBlock's Morpho Blue Market,250000.0,2629.79,['Ethereum'],Protocol Logic
+2024-09-25,Truflation,5000000.0,2579.95,[‘Unknown’],Infrastructure
+2023-08-08,Steadefi,1157000.0,1856.3,['Ethereum'],Protocol Logic
+2025-11-23,Port3 Network,166000.0,2802.16,['BSC'],Protocol Logic
+2024-04-24,XBridge,1800000.0,3140.8,"['Ethereum', 'BSC']",Infrastructure
+2023-09-12,CoinEx,55000000.0,1592.97,"['Ethereum', 'BSC', 'Bitcoin', 'Tron', 'Kadena', 'Solana', 'Dagger', 'XRP', 'BitcoinCash', 'Polygon', 'Stellar', 'Arbitrum']",Infrastructure
+2025-04-15,ZKsync,5000000.0,1588.78,['zkSync Era'],Infrastructure
+2025-01-08,Orange Finance,840000.0,3327.29,['Arbitrum'],Infrastructure
+2024-10-18,Tapioca DAO,4700000.0,2642.17,['Arbitrum'],Protocol Logic
+2025-07-10,Kinto Bridge,1550000.0,2951.29,['Arbitrum'],Protocol Logic
+2023-08-18,Exactly,7200000.0,1661.59,['Optimism'],Protocol Logic
+2025-11-26,Upbit,36000000.0,3026.56,['Solana'],Infrastructure
+2023-08-02,Bald,23000000.0,1839.9,['Base'],Rugpull
+2025-08-12,Odin.Fun,7000000.0,4590.52,['ICP'],Protocol Logic
+2024-09-20,OcelotDex,4900000.0,2561.4,['Ethereum'],Protocol Logic
+2024-02-22,Tectonic,250000.0,2971.4,['Cronos'],Protocol Logic
+2025-09-27,Hyperdrive HL,773000.0,4018.38,['Hyperliquid L1'],Protocol Logic
+2024-10-16,Radiant V2,53000000.0,2611.1,"['BSC', 'Arbitrum']",Protocol Logic
+2025-09-24,SBI Crypto,24000000.0,4152.81,"['Bitcoin', 'Ethereum', 'Litecoin', 'Doge', 'BitcoinCash']",Infrastructure
+2025-10-04,Abracadabra Spell,1700000.0,4487.15,['Ethereum'],Protocol Logic
+2025-09-01,OlaXBT,2000000.0,4314.5,['BSC'],Ecosystem
+2024-07-12,Dough Finance,1960000.0,3133.88,['Ethereum'],Protocol Logic
+2023-03-17,ParaSpace Lending V1,5000000.0,1789.27,['Ethereum'],Protocol Logic
+2024-03-29,Solareum,1400000.0,3509.74,['Solana'],Infrastructure
+2025-09-12,Kame Aggregator,1300000.0,4712.16,['Sei'],Protocol Logic
+2025-02-18,Cardex,400000.0,2671.99,['Abstract'],Infrastructure
+2024-03-26,Munchables,62500000.0,3587.33,['Blast'],Protocol Logic
+2023-08-09,Earning.Farm,540000.0,1855.35,['Ethereum'],Protocol Logic
+2025-09-23,Corepound,430000.0,4164.26,['CORE'],Rugpull
+2025-03-29,Venus Core Pool,902000.0,1828.08,['zkSync Era'],Protocol Logic
+2024-07-16,LiFi Finance,9730000.0,3444.13,"['zkSync Era', 'Linea', 'Metis']",Protocol Logic
+2024-06-13,Holograph,6700000.0,3469.4,['Ethereum'],Protocol Logic
+2025-04-26,Loopscale,5800000.0,1820.88,['Solana'],Protocol Logic
+2023-07-26,AlphaPo,60000000.0,1872.0,"['Ethereum', 'Tron']",Infrastructure
+2023-09-04,Stake.com,41300000.0,1630.51,"['Ethereum', 'BSC', 'Polygon']",Infrastructure
+2024-07-23,DeltaPrime,1000000.0,3482.51,['Arbitrum'],Protocol Logic
+2023-09-06,GMBL.COMPUTER,815000.0,1633.15,['Arbitrum'],Protocol Logic
+2023-06-27,Themis Protocol,370000.0,1889.58,['Arbitrum'],Ecosystem
+2023-04-02,Allbridge Core,650000.0,1794.51,['BSC'],Ecosystem
+2023-11-18,Kronos Research,26000000.0,1962.6,['Ethereum'],Infrastructure
+2023-07-30,Curve DEX,61700000.0,1861.79,['Ethereum'],Infrastructure
+2023-06-12,Sturdy V1,770000.0,1742.57,['Ethereum'],Ecosystem
+2023-11-22,Heco Bridge,86600000.0,2063.21,['Ethereum'],Infrastructure
+2024-01-12,Wise Lending V1,464000.0,2522.54,['Ethereum'],Protocol Logic
+2025-06-06,ForceBridge,3900000.0,2476.1,['Nervos'],Protocol Logic
+2025-08-14,"BtcTurk
+",48000000.0,4546.84,"['Ethereum', 'Avalanche', 'Arbitrum', 'Base', 'Optimism', 'Mantle', 'Polygon']",Infrastructure
+2023-11-01,Onyx Protocol,2100000.0,1846.99,['Ethereum'],Ecosystem
+2024-04-23,Magpie Protocol,129000.0,3219.46,"['Ethereum', 'Polygon', 'BSC', 'Blast', 'Avalanche', 'Arbitrum', 'Optimism', 'Base', 'zkSync Era', 'Polygon zkEVM']",Protocol Logic
+2023-04-15,Hundred Finance,7000000.0,2090.6,['Optimism'],Protocol Logic
+2025-02-04,Ionic Protocol,4000000.0,2731.19,['Mode'],Protocol Logic
+2023-11-30,Florence Finance,1450000.0,2051.96,['Ethereum'],Infrastructure
+2023-08-25,Magnate Finance,6400000.0,1653.8,['Base'],Rugpull
+2023-04-04,Sentiment,1000000.0,1870.37,['Arbitrum'],Ecosystem
+2025-08-04,CrediX,4500000.0,3720.99,['Sonic'],Infrastructure
+2023-06-10,Atlantis Loans,116000.0,1751.53,['BSC'],Rugpull
+2023-04-14,Bitrue,23000000.0,2099.99,[‘Unknown’],Infrastructure
+2024-12-01,Clipper,450000.0,3707.61,"['Optimism', 'Base']",Protocol Logic
+2025-07-28,SuperRare,730000.0,3799.0,['Ethereum'],Protocol Logic
+2024-05-31,DMM Bitcoin,305000000.0,3762.29,['Bitcoin'],Infrastructure
+2024-02-29,Shido,3300000.0,3340.09,['Ethereum'],Protocol Logic
+2025-05-26,Dexodus Finance,300000.0,2563.7,['Base'],Protocol Logic
+2023-11-18,dYdX V3,9000000.0,1962.6,['Ethereum'],Protocol Logic
+2024-11-11,zkFinance,200000.0,3371.59,['zkSync Era'],Protocol Logic
+2025-10-15,Typus Perp,3400000.0,3985.61,['Sui'],Protocol Logic
+2025-10-30,Garden,10800000.0,3805.09,"['Ethereum', 'Arbitrum', 'Base', 'Solana']",Protocol Logic
+2024-01-04,Gamma,4500000.0,2267.11,['Arbitrum'],Protocol Logic
+2024-08-06,Ronin Bridge,12000000.0,2461.33,['Ethereum'],Protocol Logic
+2024-09-26,uniBTC,1700000.0,2632.26,['Ethereum'],Protocol Logic
+2025-04-14,KiloEx,7500000.0,1623.77,"['BSC', 'Base', 'Taiko']",Protocol Logic
+2024-12-10,Clober Liquidity Vault,500000.0,3628.25,['Base'],Protocol Logic
+2024-08-01,Convergence,210000.0,3203.4,['Ethereum'],Protocol Logic
+2025-11-22,Raga Finance,18500.0,2770.12,['Hyperliquid L1'],Infrastructure
+2024-02-13,DuelBits,4600000.0,2639.99,['Ethereum'],Infrastructure
+2023-09-01,SharedStake,175000.0,1629.12,['Ethereum'],Protocol Logic
+2024-12-04,Vestra DAO,500000.0,3837.8,['Ethereum'],Protocol Logic
+2023-09-15,Remitano,2700000.0,1641.29,"['Ethereum', 'Tron', 'BitcoinCash']",Infrastructure
+2023-06-17,Midas Capital,600000.0,1727.76,['BSC'],Protocol Logic
+2025-09-10,Evoq Finance,420000.0,4349.32,['BSC'],Infrastructure
+2024-07-22,ETHTrustFund,2100000.0,3439.6,['Base'],Rugpull
+2025-03-14,Berally,90000.0,1911.65,['Berachain'],Infrastructure
+2023-10-31,Unibot,640000.0,1814.67,['Ethereum'],Protocol Logic
+2025-05-28,Cork V1,12000000.0,2681.6,['Ethereum'],Protocol Logic
+2023-03-28,Safemoon,8900000.0,1772.99,['BSC'],Protocol Logic
+2024-08-12,PolyNetwork,5000000.0,2722.3,['PolyNetwork'],Protocol Logic
+2024-06-20,OKX NFT Aggregator,14000.0,3513.08,['BSC'],Protocol Logic
+2023-11-22,KyberSwap Elastic,48000000.0,2063.21,"['Ethereum', 'Base', 'Polygon', 'Optimism', 'Arbitrum']",Protocol Logic
+2023-08-13,Zunami Protocol,2100000.0,1840.73,['Ethereum'],Ecosystem
+2025-11-03,Balancer V2,128000000.0,3603.83,"['Ethereum', 'Arbitrum', 'Base', 'Polygon', 'Sonic', 'Optimism']",Protocol Logic
+2023-07-04,Rodeo,90000.0,1936.2,['Arbitrum'],Protocol Logic
+2023-05-24,Local Traders,118000.0,1799.89,['BSC'],Protocol Logic
+2024-05-15,Sonne Finance,20000000.0,3032.55,['Optimism'],Ecosystem
+2023-06-03,Atomic Wallet,100000000.0,1892.06,"['Ethereum', 'Tron', 'BSC', 'Bitcoin', 'Polkadot', 'Avalanche']",Infrastructure
+2024-12-01,Spectral Labs,200000.0,3707.61,['Ethereum'],Protocol Logic
+2025-11-04,Moonwell Lending,1000000.0,3287.05,"['Base', 'Optimism']",Protocol Logic
+2024-11-11,DeltaPrime,4800000.0,3371.59,"['Arbitrum', 'Avalanche']",Protocol Logic
+2025-09-13,Shibarium,3000000.0,4666.53,['Shibarium'],Protocol Logic
+2023-03-27,Kokomo Finance,4000000.0,1715.22,['Optimism'],Rugpull
+2024-11-16,DEXX,21000000.0,3132.87,['Solana'],Infrastructure
+2024-03-05,WOOFi Swap,8500000.0,3553.65,['Arbitrum'],Protocol Logic
+2024-03-28,PrismaLST,11600000.0,3560.49,['Ethereum'],Protocol Logic
+2024-07-02,Bittensor,8000000.0,3421.35,[‘Unknown’],Infrastructure
+2025-03-25,Abracadabra Spell,13000000.0,2066.15,['Arbitrum'],Protocol Logic
+2025-08-13,Coinbase,300000.0,4749.3,['Ethereum'],Ecosystem
+2024-07-31,Terra 2.0,5000000.0,3232.74,['Terra2'],Infrastructure
+2024-01-16,Bungee,3300000.0,2587.4,['Ethereum'],Protocol Logic
+2024-02-28,Seneca,6500000.0,3383.1,"['Ethereum', 'Arbitrum']",Protocol Logic
+2023-06-02,Hector Lending,653000.0,1906.68,['Fantom'],Protocol Logic
+2025-08-10,numa.,320000.0,4250.57,['Sonic'],Protocol Logic
+2025-10-20,Sharwa.Finance,146000.0,3979.22,['Arbitrum'],Protocol Logic
+2024-05-05,GeniusAI,1270000.0,3136.41,"['Fantom', 'Ethereum']",Infrastructure
+2024-12-29,Fegex,900000.0,3356.48,"['Ethereum', 'BSC', 'Base']",Protocol Logic
+2024-06-02,Velocore V2,6800000.0,3780.91,"['Linea', 'zkSync Era']",Protocol Logic
+2025-09-22,UXLINK,11300000.0,4199.08,"['Ethereum', 'Arbitrum']",Protocol Logic
+2023-12-31,Orbit Bridge,81700000.0,2281.87,['Ethereum'],Protocol Logic
+2024-09-03,Penpie,27000000.0,2425.29,['Ethereum'],Protocol Logic
+2025-09-08,Nemo Yield Trading,2400000.0,4306.37,['Sui'],Protocol Logic
+2023-07-22,CoinsPaid,37300000.0,1866.52,[‘Unknown’],Ecosystem
+2024-04-29,Rain,14800000.0,3216.73,"['Bitcoin', 'Ethereum', 'XRP', 'Solana']",Infrastructure
+2025-09-09,SwissBorg,41500000.0,4310.09,['Solana'],Infrastructure
+2025-04-22,Bitcoin Mission,1300000.0,1756.26,['Arbitrum'],Protocol Logic
+2023-12-13,OKX DEX,2700000.0,2260.16,['Ethereum'],Infrastructure
+2025-01-12,Unilend V2,197600.0,3267.3,['Ethereum'],Protocol Logic
+2025-05-27,Usual,43000.0,2660.81,['Ethereum'],Protocol Logic
+2025-08-30,Cozy V2,427000.0,4373.7,['Optimism'],Protocol Logic
+2025-02-11,zkLend,9550000.0,2602.59,['Starknet'],Protocol Logic
+2024-11-28,XT Exchange,1700000.0,3578.79,['Ethereum'],Infrastructure
+2024-07-19,Rho Markets,7600000.0,3503.53,['Scroll'],Protocol Logic
+2025-09-24,GriffinAI,3000000.0,4152.81,['BSC'],Infrastructure
+2024-07-31,Monoswap,1300000.0,3232.74,['Blast'],Infrastructure
+2023-07-07,Multichain,126000000.0,1870.91,"['Moonriver', 'BSC', 'Fantom']",Infrastructure
+2025-02-21,Bybit,1400000000.0,2663.0,['Ethereum'],Protocol Logic
+2025-11-20,GANA Payment,3100000.0,2834.22,['BSC'],Infrastructure
+2024-11-15,ThalaSwap,25500000.0,3090.01,['Aptos'],Protocol Logic
+2023-11-10,Raft,3300000.0,2077.72,['Ethereum'],Protocol Logic
+2024-10-14,Kalax,350000.0,2629.79,['Blast'],Rugpull
+2023-07-25,EraLend,3400000.0,1857.66,['zkSync Era'],Protocol Logic
+2024-09-19,Banana Gun,3000000.0,2465.21,['Ethereum'],Protocol Logic
+2025-05-11,Mobius Token,2160000.0,2514.57,['BSC'],Protocol Logic
+2024-07-15,Minterest,1400000.0,3483.39,['Mantle'],Protocol Logic
+2024-06-09,Loopring,5000000.0,3706.4,['Loopring'],Protocol Logic
+2025-09-23,Seedify,1000000.0,4164.26,"['BSC', 'Avalanche']",Infrastructure
+2025-09-02,Bunni V2,8400000.0,4326.5,"['Ethereum', 'Unichain']",Protocol Logic
+2024-04-30,Pike,1600000.0,3014.05,"['Ethereum', 'Optimism', 'Arbitrum']",Protocol Logic
+2025-01-02,MoonHacker,300000.0,3455.67,['Optimism'],Protocol Logic
+2023-08-27,Balancer V2,800000.0,1658.33,['Ethereum'],Protocol Logic
+2024-09-16,DeltaPrime,5980000.0,2295.68,['Arbitrum'],Protocol Logic
+2024-08-07,Nexera,1800000.0,2342.8,['Ethereum'],Protocol Logic
+2025-02-24,Infini,49500000.0,2513.52,['Ethereum'],Protocol Logic
+2023-06-14,Tropykus RSK,150000.0,1650.95,['Rootstock'],Protocol Logic
+2023-10-07,Arena SocialFi,2900000.0,1633.57,['Avalanche'],Protocol Logic
+2025-01-23,Phemex,85000000.0,3338.21,"['Ethereum', 'Solana', 'XRP', 'Bitcoin', 'BSC', 'Sui', 'Base', 'Tron', 'Arbitrum', 'Avalanche', 'Polygon', 'Optimism', 'zkSync Era']",Infrastructure
+2024-02-24,BlueBerry,1400000.0,2992.62,['Ethereum'],Protocol Logic
+2023-07-03,AzukiDAO,68000.0,1955.54,['Ethereum'],Protocol Logic
+2025-04-07,Tenderize V2,10850.0,1553.04,['Ethereum'],Protocol Logic
+2023-05-05,DEUS Finance,6500000.0,1993.3,"['Arbitrum', 'BSC', 'Ethereum']",Protocol Logic
+2023-09-23,Mixin Network,200000000.0,1593.86,['Mixin'],Infrastructure
+2023-08-01,LeetSwap,620000.0,1873.47,['Base'],Protocol Logic
+2025-10-09,Astera.fi,573000.0,4368.09,['Linea'],Protocol Logic
+2025-03-01,Hegic(old contract),94000.0,2217.39,['Ethereum'],Protocol Logic
+2023-06-15,Hyperliquid,37000.0,1666.96,['Arbitrum'],Ecosystem
+2025-01-08,Moby,1470000.0,3327.29,['Arbitrum'],Infrastructure
+2025-03-07,1inch,5000000.0,2141.6,['Ethereum'],Protocol Logic
+2024-05-16,ALEX,4300000.0,2944.7,['Stacks'],Infrastructure
+2024-09-26,Onyx V2,4000000.0,2632.26,['Ethereum'],Protocol Logic
+2024-06-13,UwU Lend,3700000.0,3469.4,['Ethereum'],Ecosystem
+2023-11-22,Huobi,26400000.0,2063.21,['Ethereum'],Infrastructure
+2025-10-27,402bridge,17000.0,4120.15,['Base'],Infrastructure
+2023-07-02,Poly Network,5000000.0,1937.48,"['Ethereum', 'BSC', 'Polygon']",Infrastructure
+2023-04-28,0vix,2000000.0,1890.94,['Polygon'],Ecosystem
+2024-10-30,SUNRAY·FINANCE,2855000.0,2659.19,['Arbitrum'],Infrastructure
+2023-12-27,Levana Perps,1100000.0,2378.35,['Osmosis'],Protocol Logic
+2025-04-26,Impermax V3,300000.0,1820.88,['Base'],Protocol Logic
+2023-10-29,Astrid Finance,228000.0,1795.14,['Ethereum'],Protocol Logic
+2025-03-30,SIR,355000.0,1807.74,['Ethereum'],Protocol Logic
+2024-03-29,Lava,340000.0,3509.74,['Arbitrum'],Protocol Logic
+2023-09-19,Balancer V2,238000.0,1643.12,['Ethereum'],Protocol Logic
+2023-04-10,SushiSwap,3300000.0,1910.2,"['Ethereum', 'Arbitrum', 'Optimism', 'BSC']",Protocol Logic
+2024-02-25,RiskOnBlast,1300000.0,3112.59,['Blast'],Rugpull
+2023-05-28,Jimbos Protocol,7500000.0,1908.64,['Arbitrum'],Ecosystem
+2025-05-09,LND,1300000.0,2345.04,"['Sonic', 'Hyperliquid L1']",Protocol Logic
+2023-08-15,RocketSwap Base,865000.0,1828.98,['Base'],Infrastructure
+2025-03-21,Zoth ZeUSD,8850000.0,1965.75,['Ethereum'],Infrastructure
+2025-05-22,Cetus CLMM,223000000.0,2664.82,['Sui'],Protocol Logic
+2025-07-24,WOO X,14000000.0,3706.94,"['Bitcoin', 'Ethereum', 'Arbitrum', 'BSC']",Ecosystem
+2024-10-31,1inch,720000.0,2518.61,['Avalanche'],Ecosystem
+2024-03-20,Dolomite,1800000.0,3516.53,['Ethereum'],Protocol Logic
+2024-07-12,CoinStats,2200000.0,3133.88,[‘Unknown’],Infrastructure
+2025-01-28,DogWifTools,10000000.0,3077.72,['Solana'],Infrastructure
+2024-12-16,BTC24H,85700.0,3986.24,['Polygon'],Protocol Logic
+2023-08-02,Uwerx,327000.0,1839.9,['Ethereum'],Ecosystem
+2024-07-18,WazirX: India,234900000.0,3426.5,['Ethereum'],Infrastructure
+2023-04-08,GDAC,13900000.0,1848.82,[‘Unknown’],Infrastructure
+2024-06-11,YOLO Games,1500000.0,3497.33,['Blast'],Protocol Logic
+2023-05-19,Swaprum,3000000.0,1812.32,['Arbitrum'],Rugpull
+2024-06-10,UwU Lend,20000000.0,3667.85,['Ethereum'],Ecosystem
+2023-10-13,Platypus Finance,2200000.0,1552.16,['Avalanche'],Protocol Logic
+2023-10-23,Maestro,465000.0,1765.46,['Ethereum'],Protocol Logic
+2024-09-10,Indodax,25200000.0,2388.52,"['Ethereum', 'Polygon', 'Optimism']",Infrastructure
+2023-04-25,MERLIN DEX,1820000.0,1866.1,['zkSync Era'],Rugpull
+2024-09-16,WXETA,110000.0,2295.68,"['Ethereum', 'BSC']",Protocol Logic
+2023-07-24,Palmswap,900000.0,1850.0,['BSC'],Protocol Logic
+2023-09-25,HTX,8000000.0,1588.33,['Ethereum'],Infrastructure
+2024-01-02,Radiant V2,4500000.0,2355.34,['Arbitrum'],Protocol Logic
+2023-07-10,Arcadia V1,460000.0,1880.4,"['Ethereum', 'Optimism']",Ecosystem
+2025-06-06,ALEX,8373000.0,2476.1,['Stacks'],Protocol Logic
+2025-07-09,GMX V1 Perps,42000000.0,2768.74,['Arbitrum'],Protocol Logic
+2024-12-17,GemPad,2000000.0,3893.01,"['Ethereum', 'Base', 'BSC']",Protocol Logic
+2023-04-13,Yearn Finance,11539000.0,2012.01,['Ethereum'],Ecosystem
+2025-06-25,Silo Finance,546000.0,2418.49,['Ethereum'],Protocol Logic
+2023-07-22,Conic Finance,300000.0,1866.52,['Ethereum'],Ecosystem
+2025-07-15,Arcadia V2,2500000.0,3137.89,['Base'],Protocol Logic
+2023-03-18,Zircon Gamma,350000.0,1758.84,"['BSC', 'Moonriver']",Ecosystem
+2023-06-12,Keep3r Network,200000.0,1742.57,['Ethereum'],Infrastructure
+2025-06-25,Resupply,9600000.0,2418.49,['Ethereum'],Protocol Logic
+2024-01-22,Concentric,1720000.0,2314.2,['Arbitrum'],Infrastructure
+2024-04-30,Yield Protocol,181000.0,3014.05,['Arbitrum'],Protocol Logic
+2023-06-19,Ara Finance,131000.0,1737.11,['BSC'],Protocol Logic
